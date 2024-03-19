@@ -1,0 +1,52 @@
+
+
+ #name{
+    width: 100%;
+    padding:10px 20px;
+    outline: none;
+
+}
+
+.display{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+#btn{
+    width: 100px;
+    padding:10px 20px;
+    background-color:  #E799A3;
+    outline: none;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #E799A3;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width: 450px;
+    background-color: white;
+    padding: 40px 30px 30px;
+    border-radius: 10px;
+}
+
+#viewtable{
+    width: 100%;
+    text-align: center;
+}

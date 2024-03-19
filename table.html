@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="app">
+        <h2 align="center">Todo list</h2>
+        <table align="center">
+            <input type="hidden" id="editid">
+            <tr>
+                <td>
+                    <div class="display">
+                        <input type="text" placeholder="Add your task..." id="name">
+                        <button onclick="addUser()" id="btn">Add</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    
+        <br><br>
+    
+        <table align="center" border="1" id="viewtable">
+            <tr>
+                <td>Id</td>
+                <td>Task</td>
+                <td>Action</td>
+            </tr>
+            <tbody id="record"></tbody>
+        </table>
+    </div>
+</div>
+
+
+</body>
+<script src="table.js"></script>
+</html>
